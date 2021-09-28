@@ -13,7 +13,7 @@ header {
 
 
 main {
-  background: rgb(121, 113, 111);
+  background: #cecece;
   height: 100vh;
 }
 
@@ -55,7 +55,7 @@ h1 {
   text-align: center; }
 
 .section-class {
-  background-color: #f7f7f7;
+  background-color: #cecece;
   padding: 80px 0; }
   .section-class h2 {
     text-align: center;
@@ -70,17 +70,17 @@ h1 {
     height: 70px;
     line-height: 70px;
     text-align: center;
-    background-color: tomato;
+    background-color: rgb(0, 68, 255);
     display: inline-block;
     border-radius: 10em;
     font-size: 20px;
-    color: #fff; }
+    color: rgb(255, 255, 255); }
   .section-class-item h3 {
     margin-top: 0;
     font-size: 18px;
     font-weight: bold; }
   .section-class-item p {
-    color: #6f6f6f; }
+    color: #383838; }
 
 .items-right .item-icon {
   padding-left: 20px; }
