@@ -14,7 +14,7 @@ header {
 
 main {
   background: #cecece;
-  height: 100vh;
+  min-height: 150vh;
 }
 
 
@@ -96,3 +96,8 @@ h1 {
 
 .items-left .item-icon {
   padding-right: 20px; }
+
+  .delenie {
+    background: black;
+    height: 20px;
+  }
