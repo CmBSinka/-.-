@@ -22,7 +22,6 @@ main {
 footer {
   background: wheat;
   padding: 2rem;
-  text-align: center left;
 }
 
 body {
@@ -101,9 +100,23 @@ h1 {
     background: black;
     height: 20px;
   }
-  .tablica1{
-    width: 35%;
+  .Osnov_cv_tx{
+    
+    display:flex;
+    justify-content: center;
+
   }
 .lox{
   width: 100%
+}
+.tablica1, .tablica2{
+  width: 35%;    
+  border: 1px black solid;
+  margin-bottom: 10px;
+  
+}
+
+td, th {
+  padding: 3px;
+  text-align: center;
 }
