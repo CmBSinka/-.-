@@ -1,0 +1,25 @@
+.Osnov_cv_tx_3{
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  color: rgb(255, 0, 0);/*Цвет текста*/
+  font-family: sans-serif;/*Шрифт*/
+  /*opacity: 0.6;*/
+  }
+
+
+
+.tablica12
+{
+color: rgb(0, 0, 0);
+backGround: #ffffff;
+border-radius: 10px;
+position: relative;
+z-index: 1;
+/*opacity: 0.6;*/
+width: 70em;
+}
