@@ -13,255 +13,87 @@
 <head>
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="master.css">
+<link rel="stylesheet" href="Order.css">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 <link rel="shortcut icon" href="картинки/лого.png" type="image/x-icon">
   <title>WhiteTickets</title>
+  
 </head>
 <body>
     <header>
       <div class="container">
-      <a href="123.html"><img class="logo" src="картинки/лого.png" width="90" height="90"  ></a>
+        <a href="LangingPage.html"><img class="logo" src="картинки/лого.png" width="90" height="90"  ></a>
       <h1 >WhiteTickets</h1> </div>
       <div class="container2">
-      <a href="123.html"><img src="картинки/поиск.png" width="50" height="50"  ></a>
-      <a href="123.html"><img src="картинки/акции.png" width="50" height="50"  ></a>
-      <a href="123.html"><img src="картинки/жест.png" width="50" height="50" ></a>
+        <a href="LangingPage.html#search"><img src="картинки/поиск.png" alt="поиск" width="50" height="50"  ></a>
+        <a href="LangingPage.html#Akchii"><img src="картинки/акции.png" alt="акции" width="50" height="50"  ></a>
+        <a href="login.html"><img src="картинки/жест.png" alt="жест" width="50" height="50" ></a>
       </div>
     </header>
 
 
     <main>
-      <!---->
-      <section class="section-class">
-		
-        <div class="container">
-          
-          <h2>О  доверии компании</h2>
-    
-          <div class="row">
-            
-            <div class="col-md-4">
-              
-              <div class="items-right">
-    
-                <div class="section-class-item">
-                  <div class="item-text text-right">
-                    <h3>Широкий выбор билетов</h3>
-                    <p>Вы найдете билеты на все цирки страны!</p>
-                  </div>
-                  <div class="item-icon text-right">
-                    <span class="icon-wrap"><i class="fa fa-bullhorn" aria-hidden="true"></i></span>
-                  </div>
-                </div>
-    
-                <div class="section-class-item">
-                  <div class="item-text text-right">
-                    <h3>Невероятная цена!</h3>
-                    <p>Цена билетов вас просто удивит! Вы можете пойти не только сами, но и позвать всех своих родственников!</p>
-                  </div>
-                  <div class="item-icon text-right">
-                    <span class="icon-wrap"><i class="fa fa-usd" aria-hidden="true"></i></span>
-                  </div>
-                </div>
-    
-                <div class="section-class-item">
-                  <div class="item-text text-right">
-                    <h3>Специалисты</h3>
-                    <p>В нашей кампании работают специалисты с большим с разношорстным опытом работы. Они не подведут!</p>
-                  </div>
-                  <div class="item-icon text-right">
-                    <span class="icon-wrap"><i class="fa fa-bolt" aria-hidden="true"></i></span>
-                  </div>
-                </div>
-    
-              </div>
-    
+        <div class="main-block">
+          <h1>Заказ билетов</h1>
+          <form action="/">
+            <div class="info">
+              <input class="fname" type="text" name="name" placeholder="ФИО">
+              <input type="text" name="name" placeholder="Эл. Почта">
+              <input type="text" name="name" placeholder="Телефон">
+              <input type="text" name="name" placeholder="Введите дату">
+              <select>
+                <option value="number" disabled selected>Количество билетов</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <select>
+                <option value="number" disabled selected>Вид мероприятия</option>
+                <option value="1">Цирк</option>
+                <option value="2">Цирк маленький</option>
+                <option value="3">Цирк средний</option>
+                <option value="4">Цирк большой</option>
+                <option value="5">Цирк на дом</option>
+              </select>
+              <select>
+                <option value="number" disabled selected>Способ оплаты</option>
+                <option value="1">Наличными</option>
+                <option value="2">По карте</option>
+                <option value="3">PayPal</option>
+                <option value="4">QIWI</option>
+                <option value="5">CmBCoins</option>
+              </select>
+              <select>
+                <option value="time" disabled selected>Выберите время</option>
+                <option value="8">8:00</option>
+                <option value="9">9:00</option>
+                <option value="10">10:00</option>
+                <option value="12">12:00</option>
+                <option value="1">13:00</option>
+                <option value="3">14:00 </option>
+                <option value="6">18:00</option>
+                <option value="7">19:00</option>
+              </select>
             </div>
-            
-            <div class="col-md-4 col-md-push-4">
-              
-              <div class="items-left">
-    
-                <div class="section-class-item">
-                  <div class="item-icon text-left">
-                    <span class="icon-wrap"><i class="fa fa-cog" aria-hidden="true"></i></span>
-                  </div>
-                  <div class="item-text text-left">
-                    <h3>Доверенная компания</h3>
-                    <p>Наша компания по продаже билетов работает уже более 10 лет! Множество довольных клиетов и положительных отзывов.</p>
-                  </div>
-                </div>
-    
-                <div class="section-class-item">
-                  <div class="item-icon text-left">
-                    <span class="icon-wrap"><i class="fa fa-usd" aria-hidden="true"></i></span>
-                  </div>
-                  <div class="item-text text-left">
-                    <h3>Возврат средств</h3>
-                    <p>В случае, если вы не можете явиться на представление, за день до него, вы можете вернуться средства.</p>
-                  </div>
-                </div>
-    
-                <div class="section-class-item">
-                  <div class="item-icon text-left">
-                    <span class="icon-wrap"><i class="fa fa-male" aria-hidden="true"></i></span>
-                  </div>
-                  <div class="item-text text-left">
-                    <h3>Лучшие клоуны!</h3>
-                    <p>Лучшие клоуны мира желают встретить вас в своих цирках, дабы вы увидели их представление.</p>
-                  </div>
-                </div>
-    
-              </div>
-    
-            </div>
-            <!---->
-            <div class="col-md-4 col-md-pull-4">
-              
-              <div class="section-class-image text-center">
-                <img src="картинки/photo.png" width="280" height="280" alt="clown">
-              </div>
-    
-            </div>
-           <!---->
-          </div>
-    
+            <INPUT class="button2" TYPE="button" VALUE="Назад" onClick=location.href="LangingPage.html" >
+            <INPUT class="button" TYPE="button" VALUE="Подтвердить" onClick=location.href="Mesta.html" >
+          </form>
         </div>
-          <!---->
-      </section>
-
-      <div class="delenie"></div>
-      <!---->
-      <section class="section-class">
-		
-        <div class="container">
-          
-          <h2>Акции для студентов</h2>
-    
-          <div class="row">
-            
-            <div class="col-md-4">
-              
-              <div class="items-right">
-    
-                <div class="section-class-item">
-                  <div class="item-text text-right">
-                    <h3>Условия участия</h3>
-                    <p>Покупая билеты, вы автоматически начинаете учавствовать в условиях акции.</p>
-                  </div>
-                  <div class="item-icon text-right">
-                    <span class="icon-wrap"><i class="fa fa-heart" aria-hidden="true"></i></span>
-                  </div>
-                </div>
-    
-                <div class="section-class-item">
-                  <div class="item-text text-right">
-                    <h3>Отличная выгода</h3>
-                    <p>В кампании присутствуют накопительные бонусы за покупку билетов, для постоянных клиентов.</p>
-                  </div>
-                  <div class="item-icon text-right">
-                    <span class="icon-wrap"><i class="fa fa-usd" aria-hidden="true"></i></span>
-                  </div>
-                </div>
-    
-                <div class="section-class-item">
-                  <div class="item-text text-right">
-                    <h3>Частые акции</h3>
-                    <p>В кампании присутствуют ежесезонные акции на покупку билетов. </p>
-                  </div>
-                  <div class="item-icon text-right">
-                    <span class="icon-wrap"><i class="fa fa-bolt" aria-hidden="true"></i></span>
-                  </div>
-                </div>
-    
-              </div>
-    
-            </div>
-            
-            <div class="col-md-4 col-md-push-4">
-              
-              <div class="items-left">
-    
-                <div class="section-class-item">
-                  <div class="item-icon text-left">
-                    <span class="icon-wrap"><i class="fa fa-cog" aria-hidden="true"></i></span>
-                  </div>
-                  <div class="item-text text-left">
-                    <h3>Приглашай друзей!</h3>
-                    <p>Приглашая друзей, вы получаете накопительный бонус, который вы можете после использовать.</p>
-                  </div>
-                </div>
-    
-                <div class="section-class-item">
-                  <div class="item-icon text-left">
-                    <span class="icon-wrap"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></span>
-                  </div>
-                  <div class="item-text text-left">
-                    <h3>Получай скидки!</h3>
-                    <p>Учавствуя в акциях, вы получаете ежесезонные скидки.</p>
-                  </div>
-                </div>
-    
-                <div class="section-class-item">
-                  <div class="item-icon text-left">
-                    <span class="icon-wrap"><i class="fa fa-rocket" aria-hidden="true"></i></span>
-                  </div>
-                  <div class="item-text text-left">
-                    <h3>Получи уникальный автограф</h3>
-                    <p>Учавствуя в акциях, вы получаете уникальных автографы известных людей. Следите.</p>
-                  </div>
-                </div>
-    
-              </div>
-    
-            </div>
-          <!---->
-            <div class="col-md-4 col-md-pull-4">
-              
-              <div class="section-class-image text-center">
-                <img src="картинки/акцияя-removebg-preview.png" width="280" height="280" alt="clown">
-              </div>
-    
-            </div>
-          <!---->
-          </div>
-    
-        </div>
-    
-      </section>
-      <!---->
-      <div class="Osnov_cv_tx">
-        <table ALIGN="center" class="tablica1" border="1"> 
-          
-      <tr class="tablica2" style="position : relative;" WIDTH : 70% width: 30px><th ALIGN="center" ><h2>Подписка на рассылку</h2> </th> </tr>
-       <td class = "td">
-         <div class="Podpiska">
-     
-        <div class="test-0-sie"> 
-            <input placeholder="Введите адрес" type="email" NAME="Адрес" ROWS=3 COLS=34 class="lox">
-          </div>
-     
-          <form class="test-0-sbs" action="" method="post">
-            <center>
-            <INPUT TYPE="submit" VALUE="Отправить">
-            </center>
-            </form>
-       </div>
-      </td> 
-      </table>
-      </div>
-    
-
     </main>
 
     <footer>Телефон "8(800) 289-20-10". Сделано CmBSinka для компании WhiteTickets
       <div class="container2">
         
-        <a href="123.html"><img class = "search" src="картинки/поиск.png" width="50" height="50"  ></a>
-        <a href="123.html"><img class = "akchii" src="картинки/акции.png" width="50" height="50"  ></a>
-        <a href="123.html"><img class = "account" src="картинки/жест.png" width="50" height="50" ></a>
+        <a href="LangingPage.html#search"><img src="картинки/поиск.png" alt="поиск" width="50" height="50"  ></a>
+        <a href="LangingPage.html#Akchii"><img src="картинки/акции.png" alt="акции" width="50" height="50"  ></a>
+        <a href="login.html"><img src="картинки/жест.png" alt="жест" width="50" height="50" ></a>
+
         </div>
     </footer>
-</body>
+  </body>
