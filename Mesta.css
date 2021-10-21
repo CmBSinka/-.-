@@ -1,0 +1,15 @@
+.rabotaiblin{
+    border: 4px double
+    black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+main{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
