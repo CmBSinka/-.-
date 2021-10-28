@@ -1,6 +1,6 @@
 main{
   min-height: auto;
-  height: 70vh;
+
   display: flex !important;
   flex-direction: row !important;
   justify-content: center !important;
