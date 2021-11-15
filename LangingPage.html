@@ -34,6 +34,13 @@
 
     <main>
       <!---->
+      <style>
+        var b=document.getElementsByClassName('js-calc-spend');
+
+b=b[0].value/3.5;
+var n=document.getElementsByClassName('js-calc-result');
+n[0].value=Math.round(b)+' баллов'
+      </style>
       <section class="section-class">
 		
         <div class="container">
@@ -295,7 +302,35 @@
     </tbody>    
       </table>
       </div>
-    
+      <div class="delenie"></div>
+      <div class="block block_how-works block_how-works_1">
+        <h5>Как это работает</h5>
+        <div class="block_how-works__frame">
+        
+          
+        <p class="lab">За баллы *</p>
+      
+        <form action="/cabinet/">
+           <div class="form-group">
+            <label class="label44">Потратили</label>
+            <input type="text" class="input m0 js-calc-spend" value="0 ₽">
+          </div>
+          <div class="form-group">
+            <label class="label44">Траты по картам банков-партнеров</label>
+            <input type="text" class="input m0 js-calc-spend_cb" value="0 ₽">
+          </div>
+          <div class="form-group">
+            <label class="label44">Накопили</label>
+            <input type="text" class="input m0 js-calc-result" value="0 баллов" readonly="">
+          </div>
+          
+          <div class="form-group">
+            <button class="btn btn_block m0">Оплатить баллами</button>
+          </div>
+        </form>
+      
+        </div>
+      </div>
     </main>
 
     <footer>Телефон "8(800) 289-20-10". Сделано CmBSinka для компании WhiteTickets
