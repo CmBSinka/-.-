@@ -1,10 +1,6 @@
-let a = 20;
-let b = 30;
-engine.put("out", System.out);
-if (a===b) {
-    out.println('A = B');
-} else if (a > b) { 
-    out.println('A > B');
-} else {
-    out.println('A < B');
-}
+function balls(){
+    var b=document.getElementsByClassName('js-calc-spend');
+    b[0].value+' рублей';
+    b=b[0].value/3.5;
+    var n=document.getElementsByClassName('js-calc-result');
+    n[0].value=Math.round(b)+' баллов';}
