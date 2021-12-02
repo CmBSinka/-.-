@@ -14,7 +14,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-button {
+.button1 {
   background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
@@ -25,7 +25,7 @@ button {
 }
 
 /* Add a hover effect for buttons */
-button:hover {
+.button1:hover {
   opacity: 0.8;
 }
 
@@ -58,3 +58,12 @@ span.psw {
     width: 100%;
   }
 } 
+#error{
+  display: none;
+  background: white;
+  border: red solid 3px;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+}

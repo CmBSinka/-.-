@@ -14,6 +14,7 @@
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="master.css">
 <link rel="stylesheet" href="login.css">
+<script src='active.js'></script>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -35,29 +36,58 @@
 
     <main>
       <!----> 
+      <div id="error">
+        <h2>Произошла ошибка</h2>
+        <p id="title_error"></p>
+        <p id="message"></p>
+    </div> 
+      <section>
       <form action="index.html" method="post">
         <div class="imgcontainer">
           <img src="картинки/photo.png" alt="Avatar" class="avatar" height="300">
         </div>
       
-        <div class="container">
+        <div id = "login" class="container">
           <label for="uname"><b>Телефон</b></label>
-          <input type="text" placeholder="Введите номер телефона" name="uname" required>
+          <input type="text" class="login_test" placeholder="Введите номер телефона" name="uname" required>
       
           <label for="psw"><b>Пароль</b></label>
-          <input type="password" placeholder="Введите пароль" name="psw" required>
+          <input type="password" class="password_test" placeholder="Введите пароль" name="psw" required>
       
-          <button type="submit">Вход</button>
+          <input type="button" class="button1" value="Войти" onclick="login()">
           <label>
             <input type="checkbox" checked="checked" name="remember"> Запомнить меня
           </label>
         </div>
       
-        <div class="container" style="background-color:#f1f1f1">
+        <div id = "login2" class="container" style="background-color:#f1f1f1">
           <button href="index.html" type="button" class="cancelbtn" onClick=location.href="index.html">Назад</button>
           <span class="psw">  Хотите <a href="Register.html">зарегестрироваться?</a></span>
-        </div>
-      </form> 
+      </div>
+      </form>
+    </section>
+    <div class='body' id="profile">
+      <section>
+          <h1>Личный кабинет</h1>
+          <div class="colomn_align">
+              <p class="color_red">Данные регистрации</p>
+              <div class="row_align">
+                  <p class="color_blue row_item">Имя:</p>
+                  <p class="test-3-name color_white row_item"></p>
+                  <p class="color_blue row_item">Фамилия:</p>
+                  <p class="test-3-last color_white row_item"></p>
+                  <p class="color_blue row_item">Количество посещенных концертов:</p>
+                  <p class="test-3-num color_white row_item"></p>
+
+              </div>
+              <input type="button" class="test-3-logout button" value="Выйти" onclick="exit()">
+              <p class="color_red">Предстаящие концерты</p>
+              <div class="row_align" id="concert">
+
+              </div>
+          </div>
+      </section>
+  </div>
     </main>
 
     <footer>Телефон "8(800) 289-20-10". Сделано CmBSinka для компании WhiteTickets

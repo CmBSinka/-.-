@@ -188,8 +188,6 @@ width: 70em;
     display: block;
     position: relative;
     margin-bottom: 3px;
-    font-size: 14px;
-    font-size: 0.875rem;
     line-height: 24px;
     line-height: 1.5rem;
     color: #546276;
@@ -201,8 +199,6 @@ width: 70em;
     color: #546276;
     height: 53px;
     padding: 0px 18px;
-    font-size: 14px;
-    font-size: 0.875rem;
   }
   input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea, select {
     border: 1px solid transparent;
@@ -215,7 +211,6 @@ width: 70em;
     outline: none;
     zoom: 1;
     transition: all 200ms ease;
-    font-family: 'SF UI Text';
     font-weight: 500;
     border-radius: 4px;
     -webkit-appearance: none;
@@ -224,6 +219,4 @@ width: 70em;
     color: #36495c;
     height: 50px;
     padding: 5px 10px;
-    font-size: 14px;
-    font-size: 0.875rem;
   }
