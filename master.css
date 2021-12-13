@@ -1,4 +1,17 @@
 
+ .ebala{
+  display: none;
+  color: rgb(0, 0, 0);
+backGround: #ffffff;
+border-radius: 10px;
+position: relative;
+z-index: 1;
+width: 70%;
+bottom: 30px;
+justify-content: center;
+margin: auto;
+flex-wrap: wrap;
+}
 header {
   background: rgb(245, 239, 240);
   padding: 2rem;

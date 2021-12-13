@@ -13,6 +13,7 @@
 <head>
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="master.css">
+<script src='indexActive.js'></script>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -42,7 +43,7 @@
     var n=document.getElementsByClassName('js-calc-result');
     n[0].value=Math.round(b)+' баллов';
     </script>
-      <section class="section-class">
+      <section class="section-class" id="profile">
 		
         <div class="container">
           
@@ -143,7 +144,7 @@
 
       <div class="delenie"></div>
       <!---->
-      <section class="section-class">
+      <section class="section-class" id="profile2">
 		
         <div class="container">
           
@@ -242,7 +243,7 @@
       </section>
       <div class="delenie"></div>
       <a id="search"> <div class="Osnov_cv_tx_3"></a>
-        <table class="tablica12">
+        <table class="tablica12" id = "proflie4">
           
       <tr class="tablic"><th ></th> </tr>
        <td >
@@ -271,14 +272,35 @@
       
           <div class="test-0-ad"> 
             <br>
-            <INPUT TYPE="submit" VALUE="Посмотреть">
+            <input type="button" class="button1" value="Посмотреть" onclick="login()">
           </div>
        </div>
       </td> 
       </table>
       </div>
+
+      <div class='ebala' id="ebala">
+        <section>
+            <h1>Результаты поиска</h1>
+            <div class="colomn_align">
+                <div class="row_align">
+                    <p class="color_blue row_item">Название: Большой Цирк</p>
+                    <p class="test-3-name color_white row_item"></p>
+                    <p class="color_blue row_item">Код: b55c151d112be7fdd392b2630142fdec87509f078101a3d97642c0d9c5511fa5</p>
+                    <p class="test-3-last color_white row_item"></p>
+                    <p class="color_blue row_item">Дата: 19.09.21</p>
+                    <p class="test-3-num color_white row_item"></p>
+  
+                </div>
+                <div class="row_align" id="concert">
+  
+                </div>
+            </div>
+        </section>
+    </div>
+
       <!---->
-      <div class="Osnov_cv_tx">
+      <div class="Osnov_cv_tx" id = "profile4">
         <table class="tablica1">
           <tbody> 
       <tr class="tablica2" style="position : relative;">
@@ -304,7 +326,7 @@
       </table>
       </div>
       <div class="delenie"></div>
-      <div class="block block_how-works block_how-works_1">
+      <div class="block block_how-works block_how-works_1" id = "profile3">
         <h5>Как это работает</h5>
         <div class="block_how-works__frame">
         
