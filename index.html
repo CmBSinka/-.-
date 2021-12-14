@@ -251,22 +251,22 @@
       
         <div class="test-0-ai"> 
           <p>Дату от:</p> 
-            <input type="date" name="calendar" value="2021-09-19">
+            <input type="date" name="calendar" id = "data1">
           </div>
          
           <div class="test-0-an"> 
             <p>Дату до:</p>
-              <input type="date" name="calendar" value="2021-09-19">
+              <input type="date" name="calendar" id = "data2">
               </div>
       
           <div class="test-0-ad"> 
           <p>Тип мероприятия:</p>
-        <SELECT name="Meropruit">
-          <option> Цирк </option>
-           <option> Цирк маленький </option>
-          <option> Цирк средний </option>
-          <option> Цирк большой </option>
-          <option> Цирк на дом </option>
+        <SELECT name="Meropruit" id="type">
+          <option> Классика </option>
+           <option> Рок </option>
+          <option> Джаз </option>
+          <option> Фолк </option>
+          <option> Другое </option>
         </SELECT>
               </div>
       
@@ -284,13 +284,13 @@
             <h1>Результаты поиска</h1>
             <div class="colomn_align">
                 <div class="row_align">
-                    <p class="color_blue row_item">Название: Большой Цирк</p>
+                    <p class="color_blue row_item">Название:</p>
                     <p class="test-3-name color_white row_item"></p>
-                    <p class="color_blue row_item">Код: b55c151d112be7fdd392b2630142fdec87509f078101a3d97642c0d9c5511fa5</p>
+                    <p class="color_blue row_item">Код:</p>
                     <p class="test-3-last color_white row_item"></p>
-                    <p class="color_blue row_item">Дата: 19.09.21</p>
+                    <p class="color_blue row_item">Дата: </p>
                     <p class="test-3-num color_white row_item"></p>
-  
+                    <input type="button" class="button1" value="Выход" onclick="exit()">
                 </div>
                 <div class="row_align" id="concert">
   
